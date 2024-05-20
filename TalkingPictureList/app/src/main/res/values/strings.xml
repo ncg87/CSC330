@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TalkingPictureList</string>
+    <string name="base_text">No description yet</string>
+    <string name="dismiss">DISMISS</string>
+    <string name="hint">Describe it!</string>
+    <string name="record">RECORD</string>
+    <string name="stop">STOP</string>
+    <string name="save">SAVE</string>
+    <string name="imageIdKey">imageId</string>
+    <string name="imageUriKey">imageUri</string>
+    <string name="newDescriptionKey">newDescriptionKey</string>
+</resources>

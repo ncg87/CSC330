@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TalkingButtons</string>
+    <string name="nothing_to_say">I have nothing to say</string>
+    <string name="exit_button">Exit</string>
+    <string name="a1">The cat</string>
+    <string name="a2">The dog</string>
+    <string name="a3">The sun</string>
+    <string name="a4">The bat</string>
+    <string name="b1">ran</string>
+    <string name="b2">fell</string>
+    <string name="b3">speaks</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StillMoving</string>
+    <string name="camera_photo_name">Photo.jpeg</string>
+    <string name="camera_video_name">Video.mp4</string>
+</resources>

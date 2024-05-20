@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonTextRow">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+    <style name="Button">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+    </style>
+    <style name="Button.Red">
+        <item name="backgroundTint">@android:color/holo_red_light</item>
+    </style>
+    <style name="Button.Small">
+        <item name="android:layout_height">@dimen/small_button_height</item>
+        <item name="android:layout_width">@dimen/small_button_width</item>
+    </style>
+    <style name="Button.Small.Green">
+        <item name="backgroundTint">@android:color/holo_green_light</item>
+    </style>
+    <style name="Text"
+        parent="@android:style/TextAppearance">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:text">@string/so_stylish</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+    <style name="Text.Small">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+    <style name="Text.Small.Green">
+        <item name="android:textColor">@color/green</item>
+    </style>
+    <style name="Text.Small.Blue">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+</resources>

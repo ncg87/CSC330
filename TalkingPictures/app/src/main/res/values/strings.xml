@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TalkingPictures</string>
+    <string name="audio_file_name">MyVoice.mp4</string>
+</resources>
