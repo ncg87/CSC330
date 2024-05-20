@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progressBarMargins">20dp</dimen>
+    <dimen name="progressBarHeight">20dp</dimen>
+    <dimen name="progressBarWidth">300dp</dimen>
+    <dimen name="ratingBarMargins">10dp</dimen>
+    <dimen name="buttonHeight">50dp</dimen>
+    <dimen name="buttonWidth">100dp</dimen>
+    <dimen name="buttonMargin">30dp</dimen>
+
+    <integer name="max_rating">5</integer>
+    <integer name="bar_max_time">1000</integer>
+    <integer name="bar_count_time">10</integer>
+</resources>

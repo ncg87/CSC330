@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80">
+        <ImageView
+            android:id="@+id/theImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/happy">
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20">
+        <Button
+            android:id="@+id/theButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="myClickHandler"
+            android:text="@string/roll_drop"
+            ></Button>
+    </LinearLayout>
+</LinearLayout>

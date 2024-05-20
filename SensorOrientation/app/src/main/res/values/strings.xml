@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SensorOrientation</string>
+
+    <string name="turn_prompt">Try turning the phone</string>
+    <string name="minimum_orientation_change">5.0</string>
+    <string name="minimum_gravity_change">0.5</string>
+    <string name="falling_gravity">12.0</string>
+    <string name="minimum_magnetic_change">0.5</string>
+    <string name="minimum_proximity_change">0.2</string>
+    <string name="minimum_light_change">100.0</string>
+</resources>
