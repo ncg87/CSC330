@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ShowAPhoto</string>
+    <string name="button_text">CHOOSE A MOVIE</string>
+    <string name="exit_text">EXIT</string>
+    <string name="dismiss_text">DISMISS</string>
+
+    <string-array name="movies">
+        <item>Pulp Fiction</item>
+        <item>Djengo</item>
+        <item>The Pianist</item>
+        <item>Inglorious Bastards</item>
+    </string-array>
+</resources>

@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView android:id="@+id/song_name"
+        android:layout_width="0dp"
+        android:layout_weight="80"
+        android:layout_height="match_parent"
+        android:textSize="16sp">
+    </TextView>
+    <TextView android:id="@+id/plays"
+        android:layout_width="0dp"
+        android:layout_weight="20"
+        android:layout_height="match_parent"
+        android:textSize="16sp">
+    </TextView>
+</LinearLayout>

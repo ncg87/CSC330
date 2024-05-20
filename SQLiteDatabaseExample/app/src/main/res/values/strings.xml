@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Data SQLite</string>
+
+    <string name="heading">These tunes are yours!</string>
+</resources>
