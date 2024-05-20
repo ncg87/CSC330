@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GoogleMapsTest</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="API_Key">AIzaSyCpr0KE1jgPLGU9AhjP9QgEl-lQmj6MfnM</string>
+    <string name="map_button_label">Map</string>
+    <string name="satallite_button_label">Satallite</string>
+    <string name="hybrid_button_label">Hybrid</string>
+</resources>

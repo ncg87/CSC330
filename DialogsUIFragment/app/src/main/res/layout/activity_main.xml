@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <Button android:id="@+id/list_button"
+        style="@style/Button"
+        android:layout_marginTop="@dimen/margin"
+        android:text="Vote">
+    </Button>
+    <Button android:id="@+id/radios_button"
+        style="@style/Button"
+        android:text="Tune">
+    </Button>
+    <ImageView android:id="@+id/tv"
+        android:layout_width="@dimen/tv_width"
+        android:layout_height="@dimen/tv_height"
+        android:layout_marginBottom="@dimen/margin">
+    </ImageView>
+    <Button android:id="@+id/checkboxes_button"
+        style="@style/Button"
+        android:text="Eat">
+    </Button>
+    <TextView android:id="@+id/plate"
+        android:layout_width="@dimen/plate_width"
+        android:layout_height="@dimen/plate_height">
+    </TextView>
+    <Button android:id="@+id/yes_no_button"
+        style="@style/Button"
+        android:text="Exit">
+    </Button>
+</LinearLayout>

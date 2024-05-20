@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <DatePicker android:id="@+id/date_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:datePickerMode="calendar"
+        android:startYear="@integer/start_year">
+    </DatePicker>
+    <TimePicker android:id="@+id/time_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/spinner_height"
+        android:timePickerMode="spinner">
+    </TimePicker>
+    <TextView android:id="@+id/unix_minutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/time_units">
+    </TextView>
+</LinearLayout>

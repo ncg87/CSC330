@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Data Contacts Email</string>
+
+    <string name="search_button_label">Search</string>
+    <string name="name_hint">Name to search for</string>
+    <string name="email_address_hint">Email address</string>
+    <string name="email_button_label">Email</string>
+</resources>

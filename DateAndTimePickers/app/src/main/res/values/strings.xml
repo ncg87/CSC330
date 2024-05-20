@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UI Date Time</string>
+    <string name="time_units">UNIX seconds</string>
+</resources>

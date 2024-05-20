@@ -1,0 +1,4 @@
+<resources>
+    <integer name="start_year">1969</integer>
+    <dimen name="spinner_height">150dp</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="progressbar_max">180</integer>
+    <dimen name="margins">15dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="progress_bar_height">30dp</dimen>
+</resources>

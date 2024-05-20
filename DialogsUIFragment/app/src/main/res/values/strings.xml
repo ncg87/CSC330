@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">UI Dialogs Alert</string>
+
+    <string-array name="presidents">
+        <item>George Washington</item>
+        <item>Abraham Lincoln</item>
+        <item>Theodore Roosevelt</item>
+        <item>Harry Truman</item>
+        <item>Ronald Reagan</item>
+        <item>George Bush</item>
+        <item>Donald Trump</item>
+    </string-array>
+
+    <string-array name="tv_shows">
+        <item>Deadliest Catch</item>
+        <item>Archer</item>
+        <item>Top Gear</item>
+        <item>M.A.S.H.</item>
+        <item>Two and a Half Men</item>
+        <item>Big Cat Diary</item>
+        <item>Off</item>
+    </string-array>
+
+    <string-array name="menu">
+        <item>Shrimp cocktail</item>
+        <item>Escargo</item>
+        <item>Steak</item>
+        <item>Mahi Mahi</item>
+        <item>Salad</item>
+        <item>Fries</item>
+        <item>Jello</item>
+    </string-array>
+
+</resources>

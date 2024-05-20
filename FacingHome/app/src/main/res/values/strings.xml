@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FacingHome</string>
+    <string name="put_phone_flat">Put phone flat for compass</string>
+    <string name="minimum_orientation_change">5.0</string>
+    <string name="minimum_gravity_change">0.5</string>
+    <string name="minimum_magnetic_change">0.5</string>
+</resources>
