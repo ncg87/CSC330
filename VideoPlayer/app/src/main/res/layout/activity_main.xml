@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        style="@style/OneRow">
+        <TextView android:id="@+id/video_raw_name"
+            style="@style/TextLeft"
+            android:text="@string/file_label">
+        </TextView>
+        <Button android:id="@+id/video_file_play"
+            style="@style/ButtonRight.Video"
+            android:text="@string/play_button">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/OneRow">
+        <TextView android:id="@+id/video_url"
+            style="@style/TextLeft"
+            android:text="@string/URL_label">
+        </TextView>
+        <Button android:id="@+id/video_url_play"
+            style="@style/ButtonRight.Video"
+            android:text="@string/play_button">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/OneRow">
+        <Button android:id="@+id/video_pause"
+            style="@style/ButtonControl.Video"
+            android:text="@string/pause_button">
+        </Button>
+        <Button android:id="@+id/video_resume"
+            style="@style/ButtonControl.Video"
+            android:text="@string/resume_button">
+        </Button>
+        <Button android:id="@+id/video_stop"
+            style="@style/ButtonControl.Video"
+            android:text="@string/stop_button">
+        </Button>
+    </LinearLayout>
+    <Button android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/exit_button"
+        android:onClick="myClickListener">
+    </Button>
+    <VideoView android:id="@+id/video_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </VideoView>
+</LinearLayout>

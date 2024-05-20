@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VideoWithMusic</string>
+    <string name="play">PLAY</string>
+    <string name="pause">PAUSE</string>
+    <string name="resume">RESUME</string>
+    <string name="stop">STOP</string>
+    <string name="mp4_url">https://www.law.duke.edu/cspd/contest/finalists/entries/documentariesandyou.mp4</string>
+</resources>

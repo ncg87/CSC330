@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Media Player Audio</string>
+
+    <string name="mp3_url">https://www.cs.miami.edu/~geoff/Courses/CSC330-23F/Content/Media/HailtoUmiami.mp3</string>
+    <string name="raw_song">RAW: Chin Chin Choo</string>
+    <string name="play_button_label">Play!</string>
+    <string name="url_song">URL: Hail!</string>
+    <string name="pause_button_label">Pause</string>
+    <string name="resume_button_label">Resume</string>
+    <string name="stop_button_label">Stop</string>
+    <string name="exit_button_label">Exit</string>
+</resources>

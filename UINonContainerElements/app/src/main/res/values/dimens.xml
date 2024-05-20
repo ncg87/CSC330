@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="smiley_size">60dp</dimen>
+    <dimen name="progress_bar_height">20dp</dimen>
+    <dimen name="progress_bar_width">300dp</dimen>
+    <dimen name="start_button_width">200dp</dimen>
+    <dimen name="start_button_height">100dp</dimen>
+    <dimen name="gap">10dp</dimen>
+    <dimen name="half_gap">5dp</dimen>
+    <dimen name="name_text_size">30sp</dimen>
+
+    <integer name="max_score">5</integer>
+    <integer name="bar_time">500</integer>
+    <integer name="bar_click_time">50</integer>
+</resources>

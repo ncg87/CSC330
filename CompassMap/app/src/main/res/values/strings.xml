@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CompassMap</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="API_Key">AIzaSyCpr0KE1jgPLGU9AhjP9QgEl-lQmj6MfnM</string>
+    <string name="minimum_orientation_change">1.0</string>
+    <string name="minimum_gravity_change">0.5</string>
+    <string name="minimum_magnetic_change">0.5</string>
+</resources>

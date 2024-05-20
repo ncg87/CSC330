@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="play_button">PLAY!</string>
+    <string name="reset">Reset</string>
+    <string name="one_sec">1s</string>
+    <string name="two_sec">2s</string>
+    <string name="five_sec">5s</string>
+    <string name="ten_sec">10s</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+</resources>

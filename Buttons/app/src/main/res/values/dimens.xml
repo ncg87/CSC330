@@ -1,0 +1,8 @@
+<resources>
+    <integer name="upper_area_weight">33</integer>
+    <integer name="lower_area_weight">66</integer>
+    <dimen name="top_button_left_margin">30dp</dimen>
+    <dimen name="lower_button_width">50dp</dimen>
+    <dimen name="lower_right_button_padding">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

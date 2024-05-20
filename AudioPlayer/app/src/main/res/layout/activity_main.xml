@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        style="@style/OneRow">
+        <TextView android:id="@+id/audio_raw_name"
+            style="@style/TextLeft"
+            android:text="@string/raw_song">
+        </TextView>
+        <Button android:id="@+id/audio_raw_play"
+            style="@style/ButtonRight.Audio"
+            android:text="@string/play_button_label">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/OneRow">
+        <TextView android:id="@+id/audio_url"
+            style="@style/TextLeft"
+            android:text="@string/url_song">
+        </TextView>
+        <Button android:id="@+id/audio_url_play"
+            style="@style/ButtonRight.Audio"
+            android:text="@string/play_button_label">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/OneRow">
+        <Button android:id="@+id/audio_pause"
+            style="@style/ButtonControl.Audio"
+            android:text="@string/pause_button_label">
+        </Button>
+        <Button android:id="@+id/audio_resume"
+            style="@style/ButtonControl.Audio"
+            android:text="@string/resume_button_label">
+        </Button>
+        <Button android:id="@+id/audio_stop"
+            style="@style/ButtonControl.Audio"
+            android:text="@string/stop_button_label">
+        </Button>
+    </LinearLayout>
+    <Button android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/exit_button_label"
+        android:onClick="myClickListener">
+    </Button>
+</LinearLayout>

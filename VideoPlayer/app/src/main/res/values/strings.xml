@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Media Player VideoView</string>
+
+    <string name="movie_file_name">mfog.mp4</string>
+    <string name="mp4_url">https://www.law.duke.edu/cspd/contest/finalists/entries/documentariesandyou.mp4</string>
+    <string name="play_button">Play!</string>
+    <string name="file_label">FILE: Music for our Grandkids</string>
+    <string name="URL_label">URL: Documentary</string>
+    <string name="pause_button">Pause</string>
+    <string name="resume_button">Resume</string>
+    <string name="stop_button">Stop</string>
+    <string name="exit_button">Exit</string>
+</resources>

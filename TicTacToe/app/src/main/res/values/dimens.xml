@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="player_image_size">75dp</dimen>
+    <integer name="max_wins">5</integer>
+    <dimen name="margins">8dp</dimen>
+    <dimen name="name_text_size">30sp</dimen>
+    <integer name="name_weight">60</integer>
+    <dimen name="button_height">80dp</dimen>
+    <dimen name="button_width">200dp</dimen>
+    <dimen name="button_text_size">40sp</dimen>
+    <dimen name="margins2">16dp</dimen>
+    <dimen name="top_buttons">90dp</dimen>
+    <integer name="top_weight">33</integer>
+    <dimen name="progress_bar">30dp</dimen>
+    <dimen name="bottom_button">250dp</dimen>
+    <integer name="bar_max_time">2000</integer>
+    <integer name="ten_seconds">5</integer>
+    <integer name="five_seconds">20</integer>
+    <integer name="two_seconds">500</integer>
+    <integer name="one_second">1000</integer>
+    <dimen name="small_margins">4dp</dimen>
+</resources>

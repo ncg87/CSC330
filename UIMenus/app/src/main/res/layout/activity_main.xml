@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/the_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/middle_text_size"
+        android:text="@string/the_text">
+    </TextView>
+    <ImageView android:id="@+id/happy_sad_image"
+        android:layout_width="@dimen/picture_size"
+        android:layout_height="@dimen/picture_size"
+        android:src="@drawable/happy">
+    </ImageView>
+</LinearLayout>

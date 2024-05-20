@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UI Dialogs Custom</string>
+
+    <string name="start_button_label">Start</string>
+    <string name="stop_button_label">Stop</string>
+    <string name="end_button_label">End</string>
+    <string name="see_button_label">See the TV shows</string>
+    <string name="exit_button_label">Exit</string>
+</resources>

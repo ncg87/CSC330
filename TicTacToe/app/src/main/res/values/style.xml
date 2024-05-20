@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PlayerImage">
+        <item name="android:layout_width">@dimen/player_image_size</item>
+        <item name="android:layout_height">@dimen/player_image_size</item>
+        <item name="android:layout_margin">@dimen/margins</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:clickable">false</item>
+    </style>
+    <style name="PlayerImage.TicTacToe">
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">myClickHandler</item>
+        <item name="android:layout_margin">@dimen/small_margins</item>
+    </style>
+    <style name="PlayerImage.1">
+        <item name="android:background">@color/green</item>
+    </style>
+    <style name="PlayerImage.2">
+        <item name="android:background">@color/red</item>
+    </style>
+    <style name="RatingBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:numStars">@integer/max_wins</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+    <style name="NameText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@integer/name_weight</item>
+        <item name="android:layout_margin">@dimen/margins</item>
+        <item name="android:textSize">@dimen/name_text_size</item>
+    </style>
+    <style name="ProgressBar"
+        parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:max">@integer/bar_max_time</item>
+        <item name="android:layout_margin">@dimen/margins2</item>
+        <item name="android:layout_height">@dimen/progress_bar</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="ButtonRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">@integer/top_weight</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WhereAmI</string>
+    <string name="no_movement">You have not moved</string>
+</resources>

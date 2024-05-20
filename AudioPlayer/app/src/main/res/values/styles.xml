@@ -1,0 +1,35 @@
+<resources>
+    <style name="OneRow">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="TextLeft">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">75</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="ButtonRight">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">25</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ButtonRight.Audio">
+        <item name="android:onClick">myClickListener</item>
+    </style>
+
+    <style name="ButtonControl">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">33</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ButtonControl.Audio">
+        <item name="android:onClick">myClickListener</item>
+    </style>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UI Text and Bar</string>
+    <string name="happy_text">I am so Happy</string>
+    <string name="start_button_text">Start</string>
+</resources>

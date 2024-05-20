@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="spacing">20dp</dimen>
+    <dimen name="face_size">40dp</dimen>
+</resources>

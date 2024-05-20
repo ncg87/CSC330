@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap"
+        android:paddingRight="@dimen/gap"
+        android:paddingLeft="@dimen/gap"
+        android:gravity="center">
+        <TextView android:id="@+id/name1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/name_text_size"
+            android:text="@string/happy_text">
+        </TextView>
+        <ImageView android:id="@+id/image1"
+            android:layout_width="@dimen/smiley_size"
+            android:layout_height="@dimen/smiley_size"
+            android:src="@drawable/happy">
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap"
+        android:paddingRight="@dimen/gap"
+        android:paddingLeft="@dimen/gap"
+        android:gravity="center">
+        <EditText android:id="@+id/name2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/gap"
+            android:gravity="left"
+            android:textSize="@dimen/name_text_size"
+            android:hint="@string/happy_text">
+        </EditText>
+        <ImageView android:id="@+id/image2"
+            android:layout_width="@dimen/smiley_size"
+            android:layout_height="@dimen/smiley_size"
+            android:src="@drawable/happy">
+        </ImageView>
+    </LinearLayout>
+    <RatingBar android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/half_gap"
+        android:layout_gravity="center"
+        android:isIndicator="true"
+        android:numStars="@integer/max_score">
+    </RatingBar>
+    <ProgressBar android:id="@+id/time_left"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="@dimen/progress_bar_width"
+        android:layout_height="@dimen/progress_bar_height"
+        android:layout_marginTop="@dimen/gap"
+        android:layout_gravity="center"
+        android:max="@integer/bar_time">
+    </ProgressBar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <Button android:id="@+id/start_button"
+            android:layout_width="@dimen/start_button_width"
+            android:layout_height="@dimen/start_button_height"
+            android:textSize="@dimen/name_text_size"
+            android:text="@string/start_button_text"
+            android:onClick="myClickHandler">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

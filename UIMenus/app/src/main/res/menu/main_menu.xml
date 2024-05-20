@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/make_happy"
+        android:icon="@drawable/happy"
+        android:title="@string/happy_option"
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/make_sad"
+        android:icon="@drawable/sad"
+        android:title="@string/sad_option">
+    </item>
+    <item android:id="@+id/change_colour"
+        android:title="Colour">
+        <menu android:id="@+id/colours">
+            <item android:id="@+id/white"
+                android:title="White">
+            </item>
+            <item android:id="@+id/red"
+                android:title="Red">
+            </item>
+            <item android:id="@+id/green"
+                android:title="Green">
+            </item>
+            <item android:id="@+id/blue"
+                android:title="Blue">
+            </item>
+        </menu>
+    </item>
+</menu>

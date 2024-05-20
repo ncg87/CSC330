@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UI Menus</string>
+
+    <string name="start_button_text">Start</string>
+    <string name="small_option">Small</string>
+    <string name="medium_option">Medium</string>
+    <string name="large_option">Large</string>
+    <string name="sad_option">Sad</string>
+    <string name="happy_option">Happy</string>
+    <string name="the_text">I\'m so Happy</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margins">20dp</dimen>
+    <integer name="one_minute">60000</integer>
+    <integer name="start_year">1900</integer>
+</resources>

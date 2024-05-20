@@ -1,0 +1,4 @@
+<resources>
+<dimen name="imagebuttonsize">200dp</dimen>
+    <dimen name="imagebuttonwidth">100dp</dimen>
+</resources>
