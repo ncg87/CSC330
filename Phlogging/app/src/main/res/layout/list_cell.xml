@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cell_height"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="@dimen/cell_padding">
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+    </ImageView>
+    <LinearLayout
+        android:paddingLeft="@dimen/cell_padding"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/title"
+            android:textSize="@dimen/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/time"
+            android:textSize="@dimen/date_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

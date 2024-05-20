@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Phlogging</string>
+    <string name="phlog">PHLOG!</string>
+    <string name="noTitle">No title</string>
+    <string name="noText">No text</string>
+    <string name="gallery">G</string>
+    <string name="camera">C</string>
+    <string name="save">SAVE</string>
+    <string name="delete">DELETE</string>
+    <string name="dateKey">time</string>
+    <string name="locationKey">location</string>
+</resources>

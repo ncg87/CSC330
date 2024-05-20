@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">ListOfPictures</string>
+    <string-array name="countries_array">
+        <item>USA</item>
+        <item>Korea</item>
+        <item>Mexico</item>
+        <item>Russia</item>
+        <item>Turkey</item>
+        <item>Uruguay</item>
+        <item>Greece</item>
+        <item>Philippines</item>
+        <item>Puerto Rico</item>
+        <item>Egypt</item>
+        <item>China</item>
+        <item>Vietnam</item>
+        <item>Germany</item>
+        <item>Cuba</item>
+        <item>Panama</item>
+        <item>Indonesia</item>
+        <item>Dominican Republic</item>
+        <item>Guatemala</item>
+        <item>Oman</item>
+        <item>Laos</item>
+        <item>Chile</item>
+        <item>Cambodia</item>
+        <item>Angola</item>
+        <item>Iran</item>
+        <item>El Salvador</item>
+        <item>Nicaragua</item>
+        <item>Lebanon</item>
+        <item>Grenada</item>
+        <item>Honduras</item>
+        <item>Bolivia</item>
+        <item>Virgin Islands</item>
+        <item>Panama</item>
+        <item>Saudi Arabia</item>
+        <item>Kuwait</item>
+        <item>Somalia</item>
+        <item>Yugoslavia</item>
+        <item>Bosnia</item>
+        <item>Haiti</item>
+        <item>Zaire</item>
+        <item>Albania</item>
+        <item>Sudan</item>
+        <item>Yugoslavia</item>
+        <item>Macedonia</item>
+        <item>Afghanistan</item>
+        <item>Philippines</item>
+        <item>Colombia</item>
+        <item>Iraq</item>
+        <item>Liberia</item>
+        <item>Haiti</item>
+        <item>Pakistan</item>
+        <item>Somalia</item>
+        <item>Syria</item>
+        <item>Yemen</item>
+        <item>Libya</item>
+    </string-array>
+</resources>
