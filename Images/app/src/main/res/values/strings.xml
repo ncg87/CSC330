@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UI Buttons</string>
+    <string name="death_enabled">Death enabled</string>
+    <string name="death_disabled">Death disabled</string>
+    <string name="happy_word">Happy</string>
+    <string name="sad_word">Sad</string>
+    <string name="show_image">Show</string>
+    <string name="hide_image">Hide</string>
+</resources>

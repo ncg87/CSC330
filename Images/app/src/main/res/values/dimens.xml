@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="image_size">100dp</dimen>
+    <dimen name="button_size">60dp</dimen>
+    <dimen name="button_margin_left">20dp</dimen>
+</resources>

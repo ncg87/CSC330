@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/radio_happy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margin_left"
+            android:text="@string/happy_word"
+            android:checked="true"
+            android:onClick="myClickListener">
+        </RadioButton>
+        <RadioButton android:id="@+id/radio_sad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margin_left"
+            android:text="@string/sad_word"
+            android:onClick="myClickListener">
+        </RadioButton>
+    </RadioGroup>
+    <ImageView android:id="@+id/happy_sad_image"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_margin="@dimen/button_margin_left"
+        android:src="@drawable/happy">
+    </ImageView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ToggleButton android:id="@+id/toggle_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/hide_image"
+            android:textOff="@string/show_image"
+            android:background="@color/myGreen"
+            android:checked="true"
+            android:onClick="myClickListener">
+        </ToggleButton>
+        <CheckBox android:id="@+id/enable_death"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margin_left"
+            android:text="@string/death_disabled"
+            android:onClick="myClickListener">
+        </CheckBox>
+        <Button android:id="@+id/death"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_marginLeft="@dimen/button_margin_left"
+            android:foreground="@drawable/no_death"
+            android:clickable="false"
+            android:onClick="myClickListener">
+        </Button>
+    </LinearLayout>
+</LinearLayout>
