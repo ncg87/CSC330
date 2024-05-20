@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Media TTS</string>
+
+    <string name="talk_prompt">Now you can talk</string>
+    <string name="talk_button">Speak!</string>
+    <string name="exit_button">Exit</string>
+    <string name="talk_hint">Enter an utterance</string>
+    <string name="nothing_to_say">I have nothing to say</string>
+</resources>
